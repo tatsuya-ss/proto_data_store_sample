@@ -39,6 +39,9 @@ android {
 }
 
 dependencies {
+    // datastore モジュールへの参照
+    implementation project(":datastore")
+
     // proto data store
     implementation "androidx.datastore:datastore:1.0.0"
     implementation  "androidx.datastore:datastore-core:1.0.0"
