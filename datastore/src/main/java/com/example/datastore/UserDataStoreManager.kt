@@ -1,4 +1,4 @@
-package com.example.proto_data_store_sample.data
+package com.example.datastore
 
 import android.content.Context
 import android.util.Log
